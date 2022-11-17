@@ -24,27 +24,27 @@ npm i
     {name: 'İşlemler', width: 200}
   ]}
   body={[
-    [
-        'Yusuf Emir KORMAN',
-        'yusufekorman@gmail.com',
-        13,
-        <button onClick={() => {
-            const tmpUsers = [...users]
-		    tmpUsers.splice(key, 1)
-		    setUsers(tmpUsers)}}>
-        Sil
-        </button>
+    	[
+		'Yusuf Emir KORMAN',
+		'yusufekorman@gmail.com',
+		13,
+		<button onClick={() => {
+		    const tmpUsers = [...users]
+			    tmpUsers.splice(key, 1)
+			    setUsers(tmpUsers)}}>
+		Sil
+		</button>
 	],
 	[
-        'Ahmet Mehmet YILMAZ',
-        'amy@gmail.com',
-        30,
-        <button onClick={() => {
-            const tmpUsers = [...users]
-		    tmpUsers.splice(key, 1)
-		    setUsers(tmpUsers)}}>
-        Sil
-        </button>
+		'Ahmet Mehmet YILMAZ',
+		'amy@gmail.com',
+		30,
+		<button onClick={() => {
+		    const tmpUsers = [...users]
+			    tmpUsers.splice(key, 1)
+			    setUsers(tmpUsers)}}>
+		Sil
+		</button>
 	]
   ]}
 />
