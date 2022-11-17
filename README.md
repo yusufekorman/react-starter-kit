@@ -18,10 +18,10 @@ npm i
 <Table
   searchable={true}
   head={[
-    {name: 'Ad-Soyad', sortable: true},
-    {name: 'E-posta'},
-    {name: 'Yaş', sortable: true},
-    {name: 'İşlemler', width: 200}
+  	{name: 'Ad-Soyad', sortable: true},
+    	{name: 'E-posta'},
+    	{name: 'Yaş', sortable: true},
+    	{name: 'İşlemler', width: 200}
   ]}
   body={[
     	[
